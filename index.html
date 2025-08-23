@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pollygot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>🌍 Pollygot</h1>
+      <p class="sub">Learn translations interactively with AI.</p>
+
+      <label>English sentence</label>
+      <textarea id="english" placeholder="Type a sentence in English..."></textarea>
+
+      <label>Target language</label>
+      <select id="language">
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+
+      <label>Your translation</label>
+      <textarea id="attempt" placeholder="Write your translation here..."></textarea>
+
+      <button id="checkBtn">Check</button>
+
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
